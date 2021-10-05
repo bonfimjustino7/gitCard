@@ -1,0 +1,35 @@
+<html lang="pt-br">
+
+<head>
+    <title>gitCard - Cartão de Visitas criado com Git</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="gitcard.css">
+</head>
+
+<body class="ready">
+    <header class="hearder-search">
+        <input type="text" name="usuario-github" id="usuario-github" />
+        <input type="button" name="buscar-github" id="buscar-github" value="Mostrar Cartão" />
+    </header>
+
+    <div id="git-body" class="github-card user-card ocultar">
+        <div class="header User"></div>
+        <a class="avatar" href="" target="_top"><img src="#" alt=""></a>
+        <div class="content">
+            <h1></h1>
+            <ul class="status">
+                <li><a id="repositories" href="" target="_top"><strong></strong></a></li>
+                <li><a id="gist" href="" target="_top"><strong></strong></a></li>
+                <li><a id="followers" href="" target="_top"><strong></strong></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="msg">
+        <h2>Digite o nome do seu usuário do github</h2>
+    </div>
+
+    <script src="gitcard.js"></script>
+</body>
+
+</html>
